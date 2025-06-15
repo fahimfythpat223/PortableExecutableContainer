@@ -1,0 +1,9 @@
+./scaf write-superblock 	— writes superblock onto "floppy.disk"
+
+./scaf init			— creates an empty "floppy.disk" but overwrites the current one if it exists
+
+./scaf read			— reads Superblock and prints disk metadata
+
+./scaf dump [BLOCK NUMBER]	— dumps specific blocks into disk for debugging
+
+./scaf test-mount		— used for testing mount process. returns a message confirming execution. Main purpose is to mount and dismount the Disk
